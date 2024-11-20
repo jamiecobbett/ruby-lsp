@@ -8,7 +8,7 @@ gem "bundler", "~> 2.5"
 gem "minitest", "~> 5.25"
 
 group :development do
-  gem "debug", "~> 1.9", require: false
+  gem "debug", "~> 1.9", require: false, platforms: [:mri, :mingw, :x64_mingw]
   gem "minitest-reporters", "~> 1.7"
   gem "mocha", "~> 2.3"
   gem "psych", "~> 5.1", require: false
